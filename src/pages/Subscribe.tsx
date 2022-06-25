@@ -29,7 +29,7 @@ export function Subscribe() {
     })
 
     navigate('/event')
-  },[])
+  },[email, name])
 
   return(
     <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
